@@ -14,5 +14,5 @@ app.use('/static', express.static('public'));
 
 app.use('/', require('./routes/index'));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(`App listening on port ${port}`));
